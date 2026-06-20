@@ -12,7 +12,7 @@ export const profile = {
   resumeUrl: "/resume.pdf", // drop your resume PDF into /public and keep this path
   links: {
     github: "https://github.com/RGF2ZQ",
-    linkedin: "www.linkedin.com/in/david-agbana",
+    linkedin: "https://www.linkedin.com/in/david-agbana",
     tryhackme: "https://tryhackme.com/p/RGF2ZQ",
   },
 };
