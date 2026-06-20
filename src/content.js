@@ -3,37 +3,34 @@
 // ============================================================================
 
 export const profile = {
-  name: "Alex Carter",
-  handle: "@alexcarter",
-  role: "CS & Data Science Student",
+  name: "David Agbana",
+  handle: "@davidagbana",
+  role: "Computer & Data Science Student",
   focus: "Aspiring Security Analyst / AI Security Engineer",
   location: "Based in the United States",
-  email: "alex.carter@email.com",
+  email: "davidagbana356@gmail.com",
   resumeUrl: "/resume.pdf", // drop your resume PDF into /public and keep this path
   links: {
-    github: "https://github.com/yourusername",
-    linkedin: "https://linkedin.com/in/yourusername",
-    tryhackme: "https://tryhackme.com/p/yourusername",
+    github: "https://github.com/RGF2ZQ",
+    linkedin: "www.linkedin.com/in/david-agbana",
+    tryhackme: "https://tryhackme.com/p/RGF2ZQ",
   },
 };
 
 // Lines typed out in the hero terminal boot sequence.
 // Keep early lines short — they set rhythm before the summary line types out.
 export const bootLines = [
-  { prompt: "whoami", output: "alex_carter — cs + data science student" },
-  { prompt: "cat focus.txt", output: "security analysis · applied ML · automation" },
+  { prompt: "whoami", output: "david_agbana — computer + data science student" },
+  { prompt: "cat focus.txt", output: "security · data · automation" },
   { prompt: "status --current", output: "open to internships · summer 2027" },
 ];
 
-export const summary = `I'm a Computer Science and Data Science student who got into security
-the way most people in this field do — by getting curious about how things break. I build with
-Python, C++, and SQL, train models with pandas and scikit-learn, and spend my spare cycles in
-TryHackMe rooms learning how attackers think so I can help stop them. My target is security
+export const summary = `I'm a Computer Science and Data Science student who ... My target is security
 analyst and AI security engineer roles: I want to bring data-driven thinking to threat detection,
 not just run checklists.`;
 
 export const skills = {
-  Languages: ["Python", "C++", "SQL", "JavaScript", "Bash"],
+  Languages: ["Python", "C++", "C#", "SQL", "Java", "Bash"],
   "Data & ML": ["pandas", "scikit-learn", "NumPy", "Matplotlib", "Jupyter"],
   "Security Tools": ["TryHackMe", "Wireshark", "Nmap", "Burp Suite", "HaloITM"],
   "Platforms & Tools": ["Git / GitHub", "Workday Integrations", "Workato", "REST APIs", "Linux"],
@@ -99,36 +96,15 @@ export const securityLabs = [
     status: "In Progress",
     description:
       "Working through SOC analyst fundamentals: log analysis, SIEM basics, and triage workflows.",
-  },
-  {
-    title: "Home Lab: Network Traffic Analysis",
-    status: "Planned",
-    description:
-      "Setting up a small virtualized lab to capture and analyze traffic with Wireshark, and practice spotting anomalous patterns.",
-  },
-  {
-    title: "Vulnerable Web App Pentesting (DVWA / OWASP Juice Shop)",
-    status: "Planned",
-    description:
-      "Working through OWASP Top 10 vulnerabilities hands-on — SQLi, XSS, broken auth — using intentionally vulnerable apps.",
-  },
-  {
-    title: "ML for Anomaly Detection",
-    status: "Planned",
-    description:
-      "Combining the data science side with security: training models to flag anomalous login or network behavior.",
-  },
+  }
 ];
 
 export const education = {
-  school: "Your University Name",
-  degree: "B.S. in Computer Science & Data Science",
+  school: "Calvin University",
+  degree: "Bachelor of Computer Science",
+  double_major: "Data Science",
   graduation: "Expected 2028",
   coursework: [
-    "Data Structures & Algorithms",
-    "Database Systems",
-    "Machine Learning",
-    "Computer Networks",
-    "Statistics & Probability",
+    "Data Structures & Algorithms"
   ],
 };
