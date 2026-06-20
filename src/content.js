@@ -57,35 +57,7 @@ export const projects = [
     stack: ["Python", "pandas", "scikit-learn", "Matplotlib", "Jupyter"],
     links: { github: "#", demo: null },
     accent: "cyan",
-  },
-  {
-    title: "Core Data Structures Library",
-    category: "Data Structures & Algorithms",
-    blurb:
-      "Hand-built implementations of linked lists, binary search trees, and hash tables from first principles in C++, with full test coverage.",
-    impact: [
-      "Implemented BSTs and hash tables with O(log n) / O(1) average-case operations, verified with custom benchmarks",
-      "Wrote unit tests covering edge cases (empty trees, collisions, duplicate keys) to harden correctness",
-      "Used as a personal reference for technical interview prep and algorithmic problem-solving",
-    ],
-    stack: ["C++", "Data Structures", "Algorithms", "Unit Testing"],
-    links: { github: "#", demo: null },
-    accent: "green",
-  },
-  {
-    title: "Workflow Automation Toolkit",
-    category: "Automation / Scripting",
-    blurb:
-      "A set of Python scripts that automate repetitive data and integration tasks, inspired by real Workday/Workato integration work.",
-    impact: [
-      "Automated multi-step data validation and transformation tasks, saving hours of manual processing per run",
-      "Integrated with REST APIs to sync and reconcile records across systems",
-      "Added logging and error-handling so failures are traceable instead of silent",
-    ],
-    stack: ["Python", "REST APIs", "Workato", "Scripting"],
-    links: { github: "#", demo: null },
-    accent: "amber",
-  },
+  }
 ];
 
 // Forward-looking security work — explicitly labeled as in-progress/planned so it reads
