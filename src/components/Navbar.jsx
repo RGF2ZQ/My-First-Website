@@ -31,7 +31,7 @@ export default function Navbar() {
           href="#home"
           className="flex items-center gap-2 font-mono font-bold text-(--color-text) hover:text-(--color-green) transition-colors"
         >
-          <TerminalSquare className="h-5 w-5 text-(--color-green)" aria-hidden="true" />
+          <img src="/DALogo.png" alt={profile.name} className="h-6 w-6 rounded-sm" />
           <span>{profile.handle}</span>
         </a>
 
